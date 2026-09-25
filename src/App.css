@@ -1,0 +1,201 @@
+/* =========================================================
+   DON JUAN - MÓDULO DE AUTENTICACIÓN
+   Estilos principales de la pantalla de inicio de sesión.
+   ========================================================= */
+
+/* Contenedor principal de la página. */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background:
+    radial-gradient(circle at top, #3a3a3a 0%, #181818 45%, #0d0d0d 100%);
+  color: #ffffff;
+}
+
+/* Tarjeta principal del formulario. */
+.login-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 42px;
+  background: rgba(255, 255, 255, 0.97);
+  color: #202020;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+}
+
+/* Identidad visual de Don Juan. */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+/* Marca circular. */
+.brand-mark {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #c7a44a;
+  color: #171717;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* Nombre de la plataforma. */
+.brand h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 28px;
+}
+
+/* Descripción debajo del nombre. */
+.brand p {
+  margin: 3px 0 0;
+  color: #777777;
+  font-size: 13px;
+}
+
+/* Encabezado del formulario. */
+.welcome {
+  margin-bottom: 28px;
+}
+
+.welcome h2 {
+  margin: 0 0 8px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+.welcome p {
+  margin: 0;
+  color: #6f6f6f;
+}
+
+/* Grupo de cada campo. */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Etiquetas. */
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Campos de entrada. */
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 15px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  background: #fafafa;
+  color: #222222;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Estado de foco de los campos. */
+.form-group input:focus {
+  border-color: #c7a44a;
+  box-shadow: 0 0 0 3px rgba(199, 164, 74, 0.15);
+}
+
+/* Mensaje de validación. */
+.message {
+  margin: 4px 0 18px;
+  padding: 11px 13px;
+  border-radius: 8px;
+  background: #f4ead0;
+  color: #5d4815;
+  font-size: 14px;
+}
+
+/* Botón principal. */
+.login-button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #c7a44a;
+  color: #171717;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+/* Efecto del botón al pasar el cursor. */
+.login-button:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+/* Área de registro. */
+.register-link {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 25px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.register-link button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #9a7a27;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Pie de página. */
+footer {
+  margin-top: 25px;
+  color: #a8a8a8;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Adaptación para dispositivos móviles. */
+@media (max-width: 520px) {
+  .login-card {
+    padding: 30px 22px;
+  }
+
+  .welcome h2 {
+    font-size: 26px;
+  }
+/* Botón secundario para volver al inicio de sesión. */
+.back-button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid #c7a44a;
+  border-radius: 10px;
+  background: transparent;
+  color: #8d7024;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Efecto visual al pasar el cursor. */
+.back-button:hover {
+  background: #c7a44a;
+  color: #171717;
+}
