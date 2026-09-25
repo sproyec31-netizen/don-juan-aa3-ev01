@@ -1,0 +1,15 @@
+EVIDENCIA: AA3-EV01
+PROYECTO: Don Juan - Módulo de Autenticación
+AUTOR: Juan David Rivera
+PROGRAMA: Análisis y Desarrollo de Software - SENA
+
+REPOSITORIO DEL PROYECTO:
+https://github.com/sproyec31-netizen/don-juan-aa3-ev01
+
+DESCRIPCIÓN:
+Repositorio correspondiente al módulo de autenticación desarrollado
+con React y Vite para la evidencia AA3-EV01.
+
+El proyecto incluye funcionalidades de inicio de sesión, registro de
+usuarios, validación de datos y comunicación con una API desarrollada
+con Node.js y Express.
